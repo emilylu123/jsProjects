@@ -10,18 +10,22 @@
 </head>
 
 <body>
-    <div class="v_code">
-        <div class="code_show">
-            <span class="code" id="checkCode"></span>
-            <a id="linkbt">Not clear? Change another code.</a>
+
+    <div>
+        <div>
         </div>
-        <div class="input_code">
+        <div>
             <label for="inputCode">Verification Code：</label>
             <input type="text" id="inputCode" />
-            <span id="text_show"></span>
-            <input id="Button1" type="button" value="Submit" />
+            <span class="code" id="vCode"></span>
+            <div><a id="refresh">Not clear? Try another code.</a></div>
+            <div id="info"></div>
+            <input id="submitBtn" type="button" value="Submit" />
+
         </div>
+
     </div>
+
     <script src="verification.js"></Script>
 </body>
 
